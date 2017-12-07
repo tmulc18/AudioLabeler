@@ -1,0 +1,20 @@
+<div class="featured-content">
+    <div class="col-md-6">
+    <form method="POST" action="/update">
+    	<input type="hidden" name = "file" value="{{ file }}">
+    	{% for label in task.labels %}
+    		<input type="checkbox" name="label" value="{{ label }}"> {{ label }}<br>
+    	{% endfor %}
+    	<br/>
+    	<input type="submit" class="btn btn-primary" value="Submit">
+    	<a class="btn btn-info" href="/"> Later </a>
+    </form>
+    </div>
+
+    <div class="col-md-6">
+    	<audio controls>
+    		<source src="{{ file }}" type="audio/wav">
+    		Your browser does not supoort the audio element.
+    	</audio>
+    </div>
+</div>

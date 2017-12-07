@@ -1,6 +1,7 @@
 # AudioLabeler
 Simple web app for labeling audio clips.  The web app is no frills and can easily be modified for other projects.  The results are stored in csv file (by default this file is named `record.csv`).
 
+<img src='imgs/labelpage.png'>
 
 ## Setup
 Place all data in a data folder within the static folder. Chaning `settings/settings.json` to have the correct class labels.

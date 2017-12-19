@@ -22,3 +22,9 @@ flask run
 ## Acknowledgements 
 
 This work is based off of [USC supervising UI](https://github.com/USCDataScience/supervising-ui).  The provided audio examples are from [LJ-Speech-Dataset](https://keithito.com/LJ-Speech-Dataset/).
+
+## Sample Audio
+
+<audio controls>
+    <source src="static/data/LJ025-0076.wav" type="audio/wav">
+</audio>
